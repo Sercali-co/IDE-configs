@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Vesper",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "top",
+    "workbench.tree.renderIndentGuides": "onHover",
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "symbols",
+    "symbols.hidesExplorerArrows": true,
+    "chat.viewSessions.orientation": "stacked",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "workbench.sideBar.location": "right",
+    "window.commandCenter": false,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.4,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "update.mode": "start",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono, monospace"
+}
