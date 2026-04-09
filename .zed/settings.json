@@ -1,0 +1,114 @@
+{
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": false
+  },
+  "vim_mode": true,
+  "git_panel": {
+    "collapse_untracked_diff": false,
+    "tree_view": true
+  },
+  "context_servers": {
+  "shadcn": {
+   "enabled": true,
+   "remote": false,
+   "settings": {}
+  },
+  "cloudflare-docs": {
+   "enabled": true,
+   "remote": false,
+   "settings": {}
+  },
+  "Astro docs": {
+        "command": "npx",
+        "args": ["-y", "mcp-remote", "https://mcp.docs.astro.build/mcp"]
+      },
+    "shadcn-mcp-server": {
+      "enabled": true,
+      "settings": {}
+    },
+    "bun-docs-mcp": {
+      "enabled": true,
+      "settings": {}
+    }
+  },
+  "edit_predictions": {
+    "mode": "eager"
+  },
+  "hard_tabs": true,
+  "show_wrap_guides": false,
+  "preferred_line_length": 80,
+  "buffer_font_weight": 400.0,
+  "soft_wrap": "editor_width",
+  "agent": {
+    "tool_permissions": {
+      "default": "allow"
+    },
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini"
+    },
+    "default_profile": "write",
+    "default_model": {
+      "effort": "high",
+      "enable_thinking": false,
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini"
+    },
+    "model_parameters": []
+  },
+  // "show_edit_predictions": false,
+  "restore_on_startup": "last_workspace",
+  "project_panel": {
+    "dock": "right"
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 100
+    }
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "scrollbar": {
+    "show": "never"
+  },
+
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    },
+    "wakatime": {
+      "initialization_options": {
+        "api-key": "your-api-key"
+      }
+    }
+  },
+  "tabs": { "git_status": false,
+            "file_icons": true },
+  "buffer_font_size": 15.0,
+  "ui_font_size": 14.0,
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "theme": "Vesper"
+}
